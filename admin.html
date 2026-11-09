@@ -1,0 +1,22 @@
+<!doctype html><html lang=id><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Admin - PC-Check (Mockup)</title><link rel=stylesheet href=style.css></head><body>
+<nav><span class="logo">PC-Check</span>
+<a href="dashboard.html" class="">Dashboard</a>
+<a href="dashboard.html#profil" class="">Profil PC</a>
+<a href="cek.html" class="">Cek Kelayakan</a>
+<a href="log.html" class="">Impor Log</a>
+<a href="perbandingan.html" class="">Perbandingan</a>
+<a href="admin.html" class="on">Admin</a>
+<span class="sp"></span><span style="font-size:14px">Ihsan &nbsp;</span><a href="login.html">Keluar</a></nav>
+<main><h1>Panel Admin</h1><p class="sub">Kelola data Game dan Komponen, serta validasi log.</p>
+<div class="card"><h2>Data Komponen <a class="btn" style="float:right;padding:6px 14px" href="#">+ Tambah</a></h2>
+<table><tr><th>Nama</th><th>Jenis</th><th>Skor benchmark</th><th>Tipe</th><th>Aksi</th></tr>
+<tr><td>Intel Core i5-10400</td><td>CPU</td><td>(contoh)</td><td>–</td><td><a href="#">Ubah</a> · <a href="#">Hapus</a></td></tr>
+<tr><td>NVIDIA GeForce GTX 1650</td><td>GPU</td><td>(contoh)</td><td>Diskrit</td><td><a href="#">Ubah</a> · <a href="#">Hapus</a></td></tr>
+<tr><td>Intel UHD Graphics 630</td><td>GPU</td><td>(contoh)</td><td>Terintegrasi</td><td><a href="#">Ubah</a> · <a href="#">Hapus</a></td></tr></table></div>
+<div class="card"><h2>Data Game</h2><table><tr><th>Game</th><th>Target FPS</th><th>Tolak GPU terintegrasi</th><th>Aksi</th></tr>
+<tr><td>Undertale</td><td>60</td><td>Tidak</td><td><a href="#">Ubah</a></td></tr>
+<tr><td>Hollow Knight</td><td>60</td><td>Tidak</td><td><a href="#">Ubah</a></td></tr>
+<tr><td>The Walking Dead: Season 1</td><td>30</td><td>Ya</td><td><a href="#">Ubah</a></td></tr></table></div>
+<div class="card"><h2>Log menunggu validasi</h2><table><tr><th>Pemain</th><th>Game</th><th>File</th><th>Aksi</th></tr>
+<tr><td>Ihsan</td><td>Hollow Knight</td><td>hollowknight_afterburner.csv</td><td><a class="btn green" style="padding:5px 12px" href="#">Setujui</a> <a class="btn red" style="padding:5px 12px" href="#">Tolak</a></td></tr></table></div>
+</main></body></html>

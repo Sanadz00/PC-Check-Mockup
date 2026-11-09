@@ -1,0 +1,25 @@
+<!doctype html><html lang=id><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Dashboard - PC-Check (Mockup)</title><link rel=stylesheet href=style.css></head><body>
+<nav><span class="logo">PC-Check</span>
+<a href="dashboard.html" class="on">Dashboard</a>
+<a href="dashboard.html#profil" class="">Profil PC</a>
+<a href="cek.html" class="">Cek Kelayakan</a>
+<a href="log.html" class="">Impor Log</a>
+<a href="perbandingan.html" class="">Perbandingan</a>
+<a href="admin.html" class="">Admin</a>
+<span class="sp"></span><span style="font-size:14px">Ihsan &nbsp;</span><a href="login.html">Keluar</a></nav>
+<main><h1>Halo, Ihsan</h1><p class="sub">Ringkasan aktivitas dan profil PC kamu.</p>
+<div class="grid g3" style="margin-bottom:18px">
+<div class="card stat"><b>5</b><span>Prediksi dibuat</span></div>
+<div class="card stat"><b>3</b><span>Log dianalisis</span></div>
+<div class="card stat"><b>66,7%</b><span>Akurasi prediksi rata-rata</span></div></div>
+<div class="card" id="profil"><h2>Profil PC saya</h2>
+<div class="row"><div><label>CPU</label><select><option>Intel Core i5-10400</option></select></div>
+<div><label>GPU</label><select><option>NVIDIA GeForce GTX 1650</option></select></div></div>
+<div class="row"><div><label>RAM (GB)</label><input value="8"></div>
+<div><label>Penyimpanan</label><input value="SSD 512 GB"></div></div>
+<p style="margin-top:16px"><a class="btn" href="#">Simpan Profil</a></p>
+<p class="note">CPU dan GPU dipilih dari daftar komponen yang dikelola Admin.</p></div>
+<div class="card"><h2>Prediksi terakhir</h2><table><tr><th>Game</th><th>Hasil</th><th>Komponen penghambat</th></tr>
+<tr><td>Hollow Knight</td><td><span class="tag y">Pas-pasan</span></td><td>GPU</td></tr>
+<tr><td>Undertale</td><td><span class="tag g">Layak</span></td><td>–</td></tr></table></div>
+</main></body></html>

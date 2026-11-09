@@ -1,0 +1,24 @@
+<!doctype html><html lang=id><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Impor Log - PC-Check (Mockup)</title><link rel=stylesheet href=style.css></head><body>
+<nav><span class="logo">PC-Check</span>
+<a href="dashboard.html" class="">Dashboard</a>
+<a href="dashboard.html#profil" class="">Profil PC</a>
+<a href="cek.html" class="">Cek Kelayakan</a>
+<a href="log.html" class="on">Impor Log</a>
+<a href="perbandingan.html" class="">Perbandingan</a>
+<a href="admin.html" class="">Admin</a>
+<span class="sp"></span><span style="font-size:14px">Ihsan &nbsp;</span><a href="login.html">Keluar</a></nav>
+<main><h1>Impor dan Analisis Log</h1><p class="sub">Unggah file CSV dari MSI Afterburner atau CapFrameX.</p>
+<div class="card"><div class="row">
+<div><label>Profil PC</label><select><option>PC Rumah</option></select></div>
+<div><label>Game</label><select><option>Hollow Knight</option></select></div>
+<div><label>Sumber log</label><select><option>MSI Afterburner</option><option>CapFrameX</option></select></div></div>
+<div class="row" style="margin-top:12px"><div><label>File CSV (maks. 10 MB)</label><input value="hollowknight_afterburner.csv"></div>
+<div style="flex:0 0 auto"><a class="btn" href="#">Analisis</a></div></div></div>
+<div class="card"><h2>Hasil analisis</h2>
+<div class="grid g3"><div class="stat"><b>61,8</b><span>FPS rata-rata</span></div>
+<div class="stat"><b>56,2</b><span>1% low</span></div>
+<div class="stat"><b>74 °C</b><span>Suhu maksimum</span></div></div>
+<p style="margin:14px 0">Target FPS: 60 &nbsp;|&nbsp; Klasifikasi nyata: <span class="badge g" style="font-size:14px;padding:5px 16px">LAYAK</span></p>
+<div class="chart line"><svg viewBox="0 0 600 180" width="100%" height="180" preserveAspectRatio="none"><polyline fill="none" stroke="#3b82f6" stroke-width="2.5" points="0,60 40,58 80,64 120,55 160,80 200,60 240,62 280,100 320,64 360,58 400,61 440,70 480,57 520,62 560,59 600,60"/><line x1="0" x2="600" y1="62" y2="62" stroke="#dc2626" stroke-dasharray="6 4"/></svg></div>
+<p class="note">Grafik FPS terhadap waktu (garis merah = target FPS). Placeholder visual.</p>
+<a class="btn green" href="perbandingan.html">Lihat perbandingan dengan prediksi</a></div></main></body></html>

@@ -1,0 +1,23 @@
+<!doctype html><html lang=id><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Cek Kelayakan - PC-Check (Mockup)</title><link rel=stylesheet href=style.css></head><body>
+<nav><span class="logo">PC-Check</span>
+<a href="dashboard.html" class="">Dashboard</a>
+<a href="dashboard.html#profil" class="">Profil PC</a>
+<a href="cek.html" class="on">Cek Kelayakan</a>
+<a href="log.html" class="">Impor Log</a>
+<a href="perbandingan.html" class="">Perbandingan</a>
+<a href="admin.html" class="">Admin</a>
+<span class="sp"></span><span style="font-size:14px">Ihsan &nbsp;</span><a href="login.html">Keluar</a></nav>
+<main><h1>Cek Kelayakan</h1><p class="sub">Pilih profil PC dan game, lalu sistem memprediksi kelayakannya.</p>
+<div class="card"><div class="row">
+<div><label>Profil PC</label><select><option>PC Rumah (i5-10400 / GTX 1650 / 8 GB)</option></select></div>
+<div><label>Game</label><select><option>Hollow Knight</option><option>Undertale</option><option>The Walking Dead: Season 1</option></select></div>
+<div style="flex:0 0 auto"><a class="btn" href="#">Cek Kelayakan</a></div></div></div>
+<div class="card"><h2>Hasil prediksi</h2>
+<p><span class="badge y">PAS-PASAN</span> &nbsp; Komponen penghambat: <b>GPU</b></p>
+<table><tr><th>Komponen</th><th>PC kamu</th><th>Minimum</th><th>Rekomendasi</th><th>Status</th></tr>
+<tr><td>CPU</td><td>i5-10400</td><td>Rasio ≥ 1,0</td><td>Rasio ≥ 1,0</td><td class="ok">Memenuhi rekomendasi</td></tr>
+<tr><td>GPU</td><td>GTX 1650</td><td>Rasio ≥ 1,0</td><td>Rasio &lt; 1,0</td><td class="no">Hanya memenuhi minimum</td></tr>
+<tr><td>RAM</td><td>8 GB</td><td>4 GB</td><td>8 GB</td><td class="ok">Memenuhi rekomendasi</td></tr></table>
+<p style="margin-top:14px"><b>Syarat non-angka:</b> <span class="ok">tidak ada masalah</span> (GPU bukan grafis terintegrasi).</p>
+<p class="note">Angka pada mockup ini hanya contoh tampilan.</p>
+<a class="btn alt" href="log.html">Unggah log benchmark untuk validasi</a></div></main></body></html>
