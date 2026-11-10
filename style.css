@@ -29,6 +29,26 @@ th{background:#f1f5f9;color:#475569;font-size:13px}
 .chart i{flex:1;background:#3b82f6;border-radius:4px 4px 0 0;display:block}
 .chart.line{align-items:stretch;padding:0}
 .bar{height:14px;background:#e2e8f0;border-radius:7px;overflow:hidden}.bar i{display:block;height:100%;background:#16a34a}
-.note{font-size:12px;color:#94a3b8;margin-top:6px}
+.note{font-size:12px;color:#64748b;margin-top:6px}
 .center{min-height:100vh;display:flex;align-items:center;justify-content:center}
 .login{width:400px}
+
+.chart.col{align-items:flex-end}
+.bc{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:stretch;height:100%;text-align:center;font-size:12px;font-weight:600;color:#334155}
+.bc i{flex:none;margin-top:4px}
+.axis{display:flex;justify-content:space-between;font-size:12px;color:#64748b;margin-top:4px}
+.yl{font-size:12px;color:#64748b;margin:0 0 4px}
+@media (max-width:720px){
+ nav{overflow-x:auto;white-space:nowrap;padding:0 12px}
+ nav a{padding:8px 10px;flex:none}
+ nav .logo{margin-right:10px}
+ main{margin:18px auto;padding:0 12px}
+ .row{flex-direction:column;align-items:stretch;gap:0}
+ .row>div[style]{flex:none!important}
+ .row .btn{display:block;text-align:center;margin-top:12px}
+ .g3{grid-template-columns:1fr}
+ .g2{grid-template-columns:1fr}
+ table{display:block;overflow-x:auto;white-space:nowrap}
+ .login{width:100%;margin:0 12px}
+ .badge{font-size:16px}
+}
